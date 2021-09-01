@@ -1,0 +1,46 @@
+# # Everything but the following files/folders will be ignored
+# /*
+
+# !.gitignore
+# !LICENSE.md
+# !README.md
+
+# !config/
+# !journeymap/
+# journeymap/*
+# !journeymap/config/
+# !local/
+# !resources/
+# !scripts/
+
+# Match everything...
+/*
+
+# Except for these top-level files and folders that we want to track.
+!LICENSE.md
+!README.md
+!.gitignore
+!config/
+!journeymap/
+!local/
+!resources/
+!scripts/
+#!structures/
+
+# However, ignore files that mess with git due to their annoying ability to generate changes in some way on startup.
+config/acronym/saved/
+config/AppliedEnergistics2/items.csv
+config/brandon3055/contributors.json
+config/codechicken/
+config/enderio/recipes/*.pdf
+config/InvTweaks.cfg
+config/jei/worldSettings.cfg
+config/opencomputers/*.recipes
+config/splash.properties
+config/thaumicjei_itemstack_aspects.json
+config/teamreborn/configData.nbt
+
+# and ignore things that are useless to include in the repository
+journeymap/*
+!journeymap/config
+scripts/nc_script_addons/DONT_PUT_YOUR_SCRIPTS_IN_HERE
